@@ -1,0 +1,10 @@
+[project]
+name = "sysadmin-mcp"
+version = "0.1.0"
+description = "MCP servers for system and network tools"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests",
+    "mcp[cli]>=1.2.1",
+]

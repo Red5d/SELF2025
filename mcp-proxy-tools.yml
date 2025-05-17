@@ -1,0 +1,27 @@
+services:
+  mcp-proxy-network:
+    image: mcp-proxy-tools
+    build:
+      context: .
+      dockerfile: mcp-proxy_tools.Dockerfile
+    network_mode: host
+    restart: unless-stopped
+    ports:
+      - 8097:8097
+    volumes:
+      - ./network_tools.py:/network_tools.py:ro
+    command: "--pass-environment --sse-port=8097 --sse-host 0.0.0.0 --allow-origin='*' mcp run /network_tools.py"
+  
+  mcp-proxy-system:
+    image: mcp-proxy-tools
+    build:
+      context: .
+      dockerfile: mcp-proxy_tools.Dockerfile
+    network_mode: host
+    restart: unless-stopped
+    ports:
+      - 8098:8098
+    volumes:
+      - ./system_tools.py:/system_tools.py:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: "--pass-environment --sse-port=8098 --sse-host 0.0.0.0 --allow-origin='*' mcp run /system_tools.py"
