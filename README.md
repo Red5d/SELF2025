@@ -36,7 +36,7 @@ A FastMCP server providing network-related tools. Functions include:
 #### smolagents_sysadmin_examples.py
 Demonstrates how to use SmolAgents with MCPAdapt to interact with MCP servers. The example shows how to check and fix a service running in a Docker container, using LLMs to perform system administration and diagnostic tasks.
 
-Example Run: https://asciinema.org/a/CQmdS2MlpWdck0rS9GOMsebKl
+Example Run: https://asciinema.org/a/8YdOS2KoQXTGVNDzeVtWIrvyw
 
 
 ### YAML Files
