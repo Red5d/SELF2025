@@ -61,3 +61,14 @@ The repository includes example scripts showing how an LLM can be used to:
 - Perform network diagnostics
 - Retrieve system information
 
+
+## Additional Resources
+
+### Where to find MCP servers to run/use:
+- **MCP Github:** https://github.com/modelcontextprotocol/servers
+- **Docker Hub:** https://hub.docker.com/catalogs/mcp
+- **Glama:** https://glama.ai/mcp/servers
+- **Smithery:** https://smithery.ai/
+- **Pipedream:** https://mcp.pipedream.com/
+- **GitHub Awesome List:** https://github.com/punkpeye/awesome-mcp-servers
+
