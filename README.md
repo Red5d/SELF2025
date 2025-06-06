@@ -64,6 +64,12 @@ The repository includes example scripts showing how an LLM can be used to:
 
 ## Additional Resources
 
+### Personal Informational MCP server
+
+Code: https://github.com/Red5d/me-mcp
+Live: https://mcp.red5d.dev/sse
+
+
 ### Where to find MCP servers to run/use:
 - **MCP Github:** https://github.com/modelcontextprotocol/servers
 - **Docker Hub:** https://hub.docker.com/catalogs/mcp
