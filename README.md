@@ -66,8 +66,9 @@ The repository includes example scripts showing how an LLM can be used to:
 
 ### Personal Informational MCP server
 
-Code: https://github.com/Red5d/me-mcp
-Live: https://mcp.red5d.dev/sse
+**Code**: https://github.com/Red5d/me-mcp
+
+**Live**: https://mcp.red5d.dev/sse
 
 
 ### Where to find MCP servers to run/use:
