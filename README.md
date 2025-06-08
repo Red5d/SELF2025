@@ -70,6 +70,9 @@ The repository includes example scripts showing how an LLM can be used to:
 
 **Live**: https://mcp.red5d.dev/sse
 
+### MCP-capable client software
+- https://www.pulsemcp.com/clients
+- https://github.com/punkpeye/awesome-mcp-clients
 
 ### Where to find MCP servers to run/use:
 - **MCP Github:** https://github.com/modelcontextprotocol/servers
